@@ -1,0 +1,23 @@
+[
+  {
+    "event_id": "evt-001",
+    "event_type": "tool_check",
+    "tool": "git",
+    "status": "available",
+    "timestamp": "2026-10-22T09:00:00Z"
+  },
+  {
+    "event_id": "evt-002",
+    "event_type": "environment_check",
+    "variable": "PATH",
+    "status": "present",
+    "timestamp": "2026-10-22T09:00:01Z"
+  },
+  {
+    "event_id": "evt-003",
+    "event_type": "disk_check",
+    "path": ".",
+    "status": "completed",
+    "timestamp": "2026-10-22T09:00:02Z"
+  }
+]

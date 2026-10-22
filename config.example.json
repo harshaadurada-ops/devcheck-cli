@@ -1,0 +1,5 @@
+{
+  "required_env": ["PATH", "HOME"],
+  "tools": ["git", "python", "pip"],
+  "disk_path": "."
+}

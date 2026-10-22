@@ -1,0 +1,12 @@
+{
+  "checks": [
+    {"details": {"current": "3.12", "minimum": "3.10"}, "message": "Python 3.12.0", "name": "python_version", "status": "pass"},
+    {"details": {"free_bytes": 12000000000, "path": ".", "total_bytes": 500000000000, "used_bytes": 488000000000}, "message": "12000000000 bytes free", "name": "disk_space", "status": "pass"},
+    {"details": {"missing": [], "required": ["PATH"]}, "message": "All required variables are set", "name": "environment_variables", "status": "pass"},
+    {"details": {"found": {"git": "/usr/bin/git", "python": "/usr/bin/python"}, "missing": []}, "message": "All configured tools are available", "name": "developer_tools", "status": "pass"}
+  ],
+  "overall_status": "pass",
+  "summary": {"failed": 0, "passed": 4, "total": 4},
+  "tool": "devcheck",
+  "version": "1.0.0"
+}
